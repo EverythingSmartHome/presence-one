@@ -155,6 +155,8 @@ sensor:
           min_value: 0
 
 binary_sensor:
+  - platform: status
+    name: Status
   - platform: gpio
     name: mmWave
     id: mmwave
